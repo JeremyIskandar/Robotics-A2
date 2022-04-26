@@ -28,5 +28,5 @@ function [newQ] = ikine_DoBot(x, y, z)
     q2 = (pi / 2) - alpha;      %q2 solution
     q3 = pi - beta - alpha;     %q3 'real' solution
 
-    newQ = [q1,q2,q3];
+    newQ = [q1,q2,q3];      %test
 end
