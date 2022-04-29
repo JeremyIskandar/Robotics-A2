@@ -22,3 +22,5 @@ view(125,20)     %set camera view
 dobot.teach;
 q = dobot.getpos();     % Get the joint angles at the current position        
 J = dobot.jacob0(q);
+
+% test - 29 April 2022 14:19
