@@ -6,18 +6,15 @@ clc
 
 myEnv;      % calls myEnv function which plots all objects in environment
 
-dobot = myDobotRail;        % calls myDobot class which initialises and plots dobot model
+dobot = myDobotRail;        % calls myDobot class which initialises and plots dobot model 
 % q = dobot.model.getpos();     % Get the joint angles at the current position        
 % J = dobot.model.jacob0(q);
 
 %robotMove;  % calls robotMove function which plots all trajectories
 
-% dobot_move(0.3, 0.3, 0.1);      % series of move functions
-% dobot_move(-0.4,-0.4,0.1);
-% dobot_move(-0.3,-0.3,0.2);
-% dobot_move(0.2,-0.1,0.15);
-% dobot_move(-0.2,0.3,0.22);
-% dobot_move(0.3,-0.4,0.13);
-% dobot_move(0.4,0.3,0.18);
+db_workspace(30,0.5);
 
-db_workspace(30,0.5);       %creates pointcloud of dobots workspace- input step_degs (15-30 degs pref), input step_rail (0.5m 0.33m 0.25m)
+dobot_move_more();      % make robot move to test DOF's extension in -0.5m linear rail struggle
+dobot_move(-0.676,-0.177,0.217, dobot.model.getpos()); %desired x,y,z EE location with previous pos or ref point
+
+%db_workspace(30,0.5);       %creates pointcloud of dobots workspace- input step_degs (15-30 degs pref), input step_rail (0.5m 0.33m 0.25m)

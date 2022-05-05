@@ -29,7 +29,7 @@ classdef myDobot < handle
             scale = 0.8; % scale the robot down
             q = deg2rad([0 80 15 90 0]); % starting joint angles
             self.model.plot(q,'workspace',self.workspace,'scale',scale) % plot the robot
-            self.model.teach; % open teach functionality for testing purposes
+            %self.model.teach; % open teach functionality for testing purposes
             self.model.delay = 0; % set delay to 0 to speed up animation in trajectory
         end
     end

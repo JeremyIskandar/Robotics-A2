@@ -1,0 +1,19 @@
+%% 41013 Lab Assignment 2 - DoBotany
+
+clear all
+% close all
+clc
+
+myEnv;      % calls myEnv function which plots all objects in environment
+
+dobot = myDobotRail;        % calls myDobot class which initialises and plots dobot model
+% q = dobot.model.getpos();     % Get the joint angles at the current position        
+% J = dobot.model.jacob0(q);
+
+%robotMove;  % calls robotMove function which plots all trajectories
+%dobot_move(0.578,0.078,0.185, dobot.model.getpos());
+
+db_workspace(30,0.5);
+dobot_move_more();      % make robot move to test DOF's extension in -0.5m linear rail struggle
+
+%db_workspace(30,0.5);       %creates pointcloud of dobots workspace- input step_degs (15-30 degs pref), input step_rail (0.5m 0.33m 0.25m)

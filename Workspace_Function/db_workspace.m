@@ -23,17 +23,15 @@ function [] = db_workspace(steps_deg, steps_rail)   %Input steps in degrees and 
                             tr = dobot.model.fkine(q);                        
                             pointCloud(counter,:) = tr(1:3,4)';
                             counter = counter + 1; 
-                            if mod(counter/pointCloudeSize * 100,1) == 0
+                            if mod(counter/pointCloudeSize * 100,1) == 0                %keep track of progress %
                                 display(['After ',num2str(toc),' seconds, completed ',num2str(counter/pointCloudeSize * 100),'% of poses']);
                             end
-    %                     end
                     end
                 end
             end
         end
     end
-    
-    % 2.6 Create a 3D model showing where the end effector can be over all these samples.  
+    %3D plot for point cloud
     plot3(pointCloud(:,1),pointCloud(:,2),pointCloud(:,3),'r.');
  
 end
