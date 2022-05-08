@@ -7,7 +7,7 @@ diary on
 hold on
 axis equal
 
-potMod_mesh_h = PlaceObject('potMod_2_0.05.ply',[0.07,-0.07,0.05]);
+%potMod_mesh_h = PlaceObject('potMod_2_0.05.ply',[0.07,-0.07,0.05]);
 bottle_mesh_h = PlaceObject('bottle_0.02.ply',[-0.7,0.3,0.05]);
 table_mesh_h = PlaceObject('table_colour.ply',[0,0,0]);                 % place table at desired pose
 fence_mesh_h_1 = PlaceObject('fence_mod.ply',[-1.5,0,0]);               % place fence at desired pose
@@ -28,3 +28,8 @@ fence_mesh_h_15 = PlaceObject('fence_mod_flipped_new.ply',[0.6,-0.95,0]);
 fence_mesh_h_16 = PlaceObject('fence_mod_flipped_new.ply',[1.2,-0.95,0]);
 eStop_mesh_h_1 = PlaceObject('Emergency_Stop_mod_new1.ply',[0,1,0]);    % place Emergency stop button at desired pose
 FE_mesh_h_1 = PlaceObject('FE_mod_1.ply',[-0.5,1,-0.1]);                % place Fire Extinguisher at desired pose
+
+%% Plant positions
+potMod_mesh_h1 = PlaceObject('potMod_2_0.05.ply',[0,-0.2,0.05]);
+potMod_mesh_h2 = PlaceObject('potMod_2_0.05.ply',[-0.5,-0.2,0.05]);
+potMod_mesh_h3 = PlaceObject('potMod_2_0.05.ply',[0.5,-0.2,0.05]);
