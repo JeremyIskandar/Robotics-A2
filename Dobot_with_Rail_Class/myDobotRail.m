@@ -3,7 +3,7 @@
 classdef myDobotRail < handle
     properties
         model;
-        workspace = [-0.5 0.5 -0.5 0.5 0 0.5];  % define the boundaries of the workspace
+        workspace = [-0.8 0.8 -0.4 0.4 -0.01 0.5];  % define the boundaries of the workspace
     end
 
     methods
@@ -36,11 +36,11 @@ classdef myDobotRail < handle
             self.model = SerialLink(L,'name','myDobot');
             
             % Rotate robot to the correct orientation
-            self.model.base = self.model.base * transl(0,0,0.1) * trotx(pi/2) * troty(pi/2);
+            self.model.base = self.model.base * transl(0,0,0.075) * trotx(pi/2) * troty(pi/2);
         end
 
         function PlotDobot(self)
-            scale = 0.8; % scale the robot down
+            scale = 1.0; % scale option
             q = deg2rad([0 0 70 30 80 0]); % starting joint angles
             self.model.plot(q,'workspace',self.workspace,'scale',scale) % plot the robot
             %self.model.teach; % open teach functionality for testing purposes

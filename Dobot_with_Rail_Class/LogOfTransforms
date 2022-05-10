@@ -158,3 +158,16 @@ Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback
 Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main\Main_Script\main_script.m', 9)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main\Main_Script\main_script.m',9,0)">line 9</a>)
 dobot = myDobotRail;        % calls myDobot class which initialises and plots dobot model
 
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('surf', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\graph3d\surf.m', 71)" style="font-weight:bold">surf</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\graph3d\surf.m',71,0)">line 71</a>)
+Z must be a matrix, not a scalar or vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (10.5.22)\Main_Script\main_script.m', 35)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (10.5.22)\Main_Script\main_script.m',35,0)">line 35</a>)
+surf([-0.5;0.5].', [-0.1;0.1].', [0,0.1], 'FaceColor','g')
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('surf', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\graph3d\surf.m', 71)" style="font-weight:bold">surf</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\graph3d\surf.m',71,0)">line 71</a>)
+Z must be a matrix, not a scalar or vector.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (10.5.22)\Main_Script\main_script.m', 35)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (10.5.22)\Main_Script\main_script.m',35,0)">line 35</a>)
+surf([-0.5;0.5].', [-0.1;0.1].', [0,0.1], 'FaceColor','g')
+
+dobot_move(0.5,0.25,0.1,dobot.model.getpos(),50);
