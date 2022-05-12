@@ -6,8 +6,7 @@ clc
 
 myEnv;      % calls myEnv function which plots all objects in environment
 
-global dobot
-dobot = myDobotRail;        % calls myDobot class which initialises and plots dobot model 
+dobot = myDobotRail();        % calls myDobot class which initialises and plots dobot model 
 
 % q = dobot.model.getpos();     % Get the joint angles at the current position        
 % J = dobot.model.jacob0(q);
@@ -20,6 +19,7 @@ dobot_move_more();      % make robot move to test DOF's extension in -0.5m linea
 %dobot_move(-0.676,-0.177,0.217, dobot.model.getpos()); %desired x,y,z EE location with previous pos or ref point
 dobot_move(0,-0.2,0.25, dobot.model.getpos());
 dobot_move_more();
+% dobot_move_more();
 % water_plant_1();
 
 

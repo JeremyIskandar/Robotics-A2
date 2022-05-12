@@ -2,7 +2,7 @@ function [] = water_plant_1()     % Stacked dobot_move() functions for DOF testi
     
     %make switch case function
 
-     dobot = myDobotRail();
+     dobot = myDobotRail;
     
     r = 0.015;      %radius of pot      
 

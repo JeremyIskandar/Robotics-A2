@@ -1,6 +1,6 @@
 function [] = dobot_move_more()     % Stacked dobot_move() functions for DOF testing purposes
-    
-%     dobot = myDobotRail;
+
+    dobot = myDobotRail();
 
     dobot_move(0.578,0.078,0.185, dobot.model.getpos()); %R 0.5m q0 elbow bent
     dobot_move(0.726,0.226,0.204, dobot.model.getpos());%R 0.5m q1 elbow extended
