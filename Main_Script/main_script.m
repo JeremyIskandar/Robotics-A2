@@ -14,10 +14,9 @@ dobot = myDobotRail();        % calls myDobot class which initialises and plots 
 %robotMove;  % calls robotMove function which plots all trajectories
 
 
-db_workspace(30,0.25);       %creates pointcloud of dobots workspace- input step_degs (15-30 degs pref), input step_rail (0.5m 0.33m 0.25m)
+% db_workspace(30,0.25);       %creates pointcloud of dobots workspace- input step_degs (15-30 degs pref), input step_rail (0.5m 0.33m 0.25m)
+dobot_move(-0.139,-0.135,0.129,dobot.model.getpos());
 
-
-water_plant_1();
 
 %% dobot_move Testing
 %this seems to work!
