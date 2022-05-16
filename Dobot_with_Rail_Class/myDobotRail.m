@@ -42,14 +42,9 @@ classdef myDobotRail < handle
         function PlotDobot(self)
             scale = 1.0; % scale option
             q = deg2rad([0 0 70 30 80 0]); % starting joint angles
-            self.model.plot(q,'workspace',self.workspace,'scale',scale) % plot the robot
+            self.model.plot(q,'noarrow','workspace',self.workspace,'scale',scale) % plot the robot
             %self.model.teach; % open teach functionality for testing purposes
             self.model.delay = 0; % set delay to 0 to speed up animation in trajectory
         end
-        
     end
 end
-
-%% For use in main script
-% q = dobot.getpos();     % Get the joint angles at the current position        
-% J = dobot.jacob0(q);

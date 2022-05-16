@@ -171,3 +171,600 @@ Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback
 surf([-0.5;0.5].', [-0.1;0.1].', [0,0.1], 'FaceColor','g')
 
 dobot_move(0.5,0.25,0.1,dobot.model.getpos(),50);
+myDobotRail;
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:noPublicFieldForClass'
+       message: 'Unrecognized property 'FaceVertexCData' for class 'matlab.graphics.primitive.Transform'.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 2 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 6 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 4 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 6 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 4 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:emptyObjectDotAssignment'
+       message: 'Property assignment is not allowed when the object is empty.  Use subscripted assignment to create an array element.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+myEnv;
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+clear
+clc
+myEnv;
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+clear
+clc
+myEnv;
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+myDobotRail;
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 2 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 6 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 4 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 6 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 4 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds the number of array elements. Index must not exceed 6.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds the number of array elements. Index must not exceed 6.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+clear
+clc
+myEnv;
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex} ] = plyread(['dobot_',num2str(linkIndex-1),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+2} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+2} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+link_0 = PlaceObject('dobot_0.ply',[0,0,0]);
+clear all
+clc
+myEnv;
+link_0 = PlaceObject('dobot_0.ply',[0,0,0]);
+clear
+clc
+myEnv;
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+2} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+link_0 = PlaceObject('dobot_0.ply',[0,0,0]);
+clear
+clc
+myEnv;
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+2} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+link_0 = PlaceObject('dobot_0.ply',[0,0,0]);
+link_1 = PlaceObject('dobot_1.ply',[0,0,0.1]);
+clear
+clc
+myEnv;
+myDobotRail;
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 2 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 6 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 4 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 6 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 4 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds the number of array elements. Index must not exceed 6.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds the number of array elements. Index must not exceed 6.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+helpPopup MException
+helpPopup MException
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+2} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)
+myDobotRail;
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 2 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 6 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 4 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 6 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:index:expected_one_output_for_assignment'
+       message: 'Assigning to 4 elements using a simple assignment statement is not supported. Consider using comma-separated list assignment.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds the number of array elements. Index must not exceed 6.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:badsubscript'
+       message: 'Index exceeds the number of array elements. Index must not exceed 6.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+clc
+myEnv;
+myEnv;
+myDobotRail;
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:undefinedVariable'
+       message: 'Undefined variable plyData.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:undefinedVariable'
+       message: 'Undefined variable plyData.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:undefinedVariable'
+       message: 'Undefined variable plyData.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:undefinedVariable'
+       message: 'Undefined variable plyData.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:undefinedVariable'
+       message: 'Undefined variable plyData.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:undefinedVariable'
+       message: 'Undefined variable plyData.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+  <a href="matlab:helpPopup MException" style="font-weight:bold">MException</a> with properties:
+
+    identifier: 'MATLAB:undefinedVariable'
+       message: 'Undefined variable plyData.'
+         cause: {}
+         stack: [2×1 struct]
+    Correction: []
+
+clear
+clc
+myEnv;
+myDobotRail;
+clear
+clc
+myEnv;
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+2} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+myDobotRail;
+{Index exceeds the number of array elements. Index must not exceed 6.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/plot3d', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m', 228)" style="font-weight:bold">SerialLink/plot3d</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m',228,0)">line 228</a>)
+            patch('Faces', robot.faces{link+1}, 'Vertices', robot.points{link+1}, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 71)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',71,0)">line 71</a>)
+            self.model.plot3d(q,'noarrow','workspace',self.workspace,'scale',scale) % plot the robot
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+matlab.internal.language.introspective.errorDocCallback('SerialLink/plot3d', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m', 228)
+uiopen('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@LinearUR5\LinearUR5.m',1)
+clear
+close
+clc
+myEnv;
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 44)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',44,0)">line 44</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot_',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+clear
+clc
+myEnv;
+myDobotRail;
+{Index exceeds the number of array elements. Index must not exceed 6.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/plot3d', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m', 228)" style="font-weight:bold">SerialLink/plot3d</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m',228,0)">line 228</a>)
+            patch('Faces', robot.faces{link+1}, 'Vertices', robot.points{link+1}, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 71)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',71,0)">line 71</a>)
+            self.model.plot3d(q,'noarrow','workspace',self.workspace,'scale',scale) % plot the robot
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+matlab.internal.language.introspective.errorDocCallback('SerialLink/plot3d', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m', 228)
+uiopen('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@LinearUR5\LinearUR5.m',1)
+clear
+clc
+myEnv;
+myDobotRail;
+{Index exceeds the number of array elements. Index must not exceed 6.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/plot3d', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m', 228)" style="font-weight:bold">SerialLink/plot3d</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m',228,0)">line 228</a>)
+            patch('Faces', robot.faces{link+1}, 'Vertices', robot.points{link+1}, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 73)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',73,0)">line 73</a>)
+            self.model.plot3d(q,'noarrow','workspace',self.workspace,'scale',scale) % plot the robot
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+clear
+clc
+myEnv;
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 46)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',46,0)">line 46</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+myDobotRail;
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 28)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',28,0)">line 28</a>)
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 46)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',46,0)">line 46</a>)
+                [ faceData, vertexData, plyData{linkIndex+1} ] = plyread(['dobot',num2str(linkIndex),'.ply'],'tri'); %#ok<AGROW>
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+clear
+clc
+myEnv;
+myDobotRail;
+{Index exceeds the number of array elements. Index must not exceed 6.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/plot3d', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m', 228)" style="font-weight:bold">SerialLink/plot3d</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot3d.m',228,0)">line 228</a>)
+            patch('Faces', robot.faces{link+1}, 'Vertices', robot.points{link+1}, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 73)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',73,0)">line 73</a>)
+            self.model.plot3d(q,'noarrow','workspace',self.workspace,'scale',scale) % plot the robot
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+} 
+myEnv;
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 304)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',304,0)">line 304</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PlaceObject', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m', 4)" style="font-weight:bold">PlaceObject</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m',4,0)">line 4</a>)
+    [f,v,data] = plyread(name,'tri');
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myEnv', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Environment\myEnv.m', 32)" style="font-weight:bold">myEnv</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Environment\myEnv.m',32,0)">line 32</a>)
+pump = PlaceObject('pump.ply',[0,0.3,0]);    % plot dobot rail on table
+} 
+Unrecognized method, property, or field 'plot3' for class 'SerialLink'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 45)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',45,0)">line 45</a>)
+            self.model.plot3(q,'noarrow','workspace',self.workspace,'scale',scale) % plot the robot
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();   %calls PlotDobot function
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Main_Script\main_script.m', 9)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (16.5.22)\Main_Script\main_script.m',9,0)">line 9</a>)
+dobot = myDobotRail();        % calls myDobot class which initialises and plots dobot model 
+
+clear
