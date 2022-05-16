@@ -1,8 +1,12 @@
 function [] = water_plant_1(dobot)     % Stacked dobot_move() functions for DOF testing purposes   
-    r = 0.015;      %radius of pot     
+    r = 0.015;      %radius of pot      
+
 %     x1 = -0.165;    %Initial x,y coordinate centre of pot
 %     y1 = 0;
-  
+
+
+
+    
     %% Plant 3 front right
     x_offset = 0.5;
     y_offset = -0.2;

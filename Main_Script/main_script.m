@@ -4,35 +4,25 @@ clear all
 % close all
 clc
 
-myEnv;      % calls myEnv function which plots all objects in environment
+% myEnv;      % calls myEnv function which plots all objects in environment
 
 dobot = myDobotRail();        % calls myDobot class which initialises and plots dobot model 
 
 % q = dobot.model.getpos();     % Get the joint angles at the current position        
 % J = dobot.model.jacob0(q);
 
-%robotMove;  % calls robotMove function which plots all trajectories
-
-
 % db_workspace(30,0.25);       %creates pointcloud of dobots workspace- input step_degs (15-30 degs pref), input step_rail (0.5m 0.33m 0.25m)
-dobot_move(-0.139,-0.135,0.129,dobot.model.getpos());
 
+%% Initialization (waters all five plants in order 1 -> 5)
+for plant_switch = 1:1:5            % Water plants 1 - > 5 in order
+    water_plant_2(dobot, plant_switch);
+end
 
-%% dobot_move Testing
-%this seems to work!
-%maybe the next step is change the input for dobot_move from (x,y,z...) to
-%a 1x3 array, so we can set plant1=[x,y,z]; then call dobot_move(plant1...)
-clear all
-clc
-
-myEnv;
-
-dobot = myDobotRail;
-%dobot_move(-0.5,-0.25,0.15,dobot.model.getpos(),50);
-%dobot_move(0.5,0.25,0.1,dobot.model.getpos(),50);
-%dobot_move(-0.25,0.15,0.2,dobot.model.getpos(),50);
-
-
+%% Soil moisture sensor
+% https://lastminuteengineers.com/soil-moisture-sensor-arduino-tutorial/
+% < 500 too wet     500 - 700 target range      >750 dry
+plant_moisture_levels = [600, 600, 600, 600, 600];
+for moisture 
 %% Light Curtain Testing
 
 %lightCurtain;

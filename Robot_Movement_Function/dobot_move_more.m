@@ -1,5 +1,4 @@
-function [] = dobot_move_more()     % Stacked dobot_move() functions for DOF testing purposes
-    dobot = myDobotRail();
+function [] = dobot_move_more(dobot)     % Stacked dobot_move() functions for DOF testing purposes
 
     dobot_move_1(0.578,0.078,0.185, dobot); %R 0.5m q0 elbow bent
     dobot_move_1(0.726,0.226,0.204, dobot);%R 0.5m q1 elbow extended
