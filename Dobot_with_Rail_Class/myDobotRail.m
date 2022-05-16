@@ -39,7 +39,7 @@ classdef myDobotRail < handle
             self.model.base = self.model.base * transl(0,0,0.075) * trotx(pi/2) * troty(pi/2);
         end
 
-        function PlotDobot(self,)
+        function PlotDobot(self)
             scale = 1.0; % scale option
             q = deg2rad([0 0 70 30 80 0]); % starting joint angles
             self.model.plot(q,'workspace',self.workspace,'scale',scale) % plot the robot
