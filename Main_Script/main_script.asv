@@ -4,7 +4,7 @@ clear all
 % close all
 clc
 
-% myEnv;      % calls myEnv function which plots all objects in environment
+myEnv;      % calls myEnv function which plots all objects in environment
 
 dobot = myDobotRail();        % calls myDobot class which initialises and plots dobot model 
 
@@ -21,8 +21,7 @@ end
 %% Soil moisture sensor
 % https://lastminuteengineers.com/soil-moisture-sensor-arduino-tutorial/
 % < 500 too wet     500 - 700 target range      >750 dry
-plant_moisture_levels = [600, 600, 600, 600, 500];
-
+water_plant_moisture(dobot);
 %% Light Curtain Testing
 
 %lightCurtain;

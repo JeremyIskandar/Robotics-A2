@@ -20,7 +20,7 @@ function [] = dobot_move(x,y,z, pos_db, step_option)     %Input x,y,z EE desired
     
     for i = 1:steps
         dobot.model.animate(qMatrix_1(i,:));
-        dobot.model.fkine(qMatrix_1(i,:));  %
+        dobot.model.fkine(qMatrix_1(i,:));  
         drawnow();
     end
 

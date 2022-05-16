@@ -18,14 +18,49 @@ function [] = dobot_move_1(x,y,z, dobot, step_option)     %Input x,y,z EE desire
 
     qMatrix_1 = jtraj(q0,qr1,steps);    %move from default to pos1
     
+    delta = 0.05
     for i = 1:steps
 %         if(estop pressed)             %pseudo code for stop button
 %             while pressed
 %                 wait
+        xdot = (x(:,i+1) - x(:,i))/deltaT;                             % Calculate velocity at discrete time step
+        J = p2.jacob0(qMatrix(i,:));            % Get the Jacobian at the current state
+        J = J(1:2,:);                           % Take only first 2 rows
+        qdot = inv(J)*xdot;                             % Solve velocitities via RMRC
+        qMatrix(i+1,:) =  qMatrix(i,:) + deltaT*qdot';                   % Update next joint state
+
+
         dobot.model.animate(qMatrix_1(i,:));
         dobot.model.fkine(qMatrix_1(i,:));  %
         drawnow();
     end
+
+    %% 3.5: Resolved Motion Rate Control
+steps = 50;
+
+% 3.6
+x1 = [1.5 1]';
+x2 = [1.5 -1]';
+deltaT = 0.05;                                        % Discrete time step
+
+% 3.7
+x = zeros(2,steps);
+s = lspb(0,1,steps);                                 % Create interpolation scalar
+for i = 1:steps
+    x(:,i) = x1*(1-s(i)) + s(i)*x2;                  % Create trajectory in x-y plane
+end
+
+% 3.8
+qMatrix = nan(steps,2);
+
+% 3.9
+qMatrix(1,:) = p2.ikine(T1,[0 0],M);                 % Solve for joint angles
+
+% 3.10
+for i = 1:steps-1
+    
+end
+
 end
 
 

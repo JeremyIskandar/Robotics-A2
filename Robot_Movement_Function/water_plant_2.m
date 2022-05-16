@@ -31,14 +31,13 @@ function [] = water_plant_2(dobot, plant_switch)     % Stacked dobot_move() func
     for theta = 0:increm_angle:max_angle    %in degrees increment
         x2 = -r*cos(deg2rad(theta)) + x_offset;        %next x,y coordinate circum inside pot
         y2 = -r*sin(deg2rad(theta)) + y_offset;
-        disp(theta)
-        disp(x2)
-        disp(y2)
         if theta == 0
             dobot_move_1(x2,y2,0.25, dobot);       %if first iteration want animation slow
         else                                                    %2nd ++ iteration fast animations using less steps in dobot_move
             dobot_move_1(x2,y2,0.25, dobot, 1);      %0,-0.2,0.25      0,-0.165,0.25       r = 0.015
         end
     end
+    alert = ['Plant ', num2str(plant_switch), ' has been watered!'];
+    disp(alert);
     dobot_move_1(0,0.11,0.165, dobot);
 end
