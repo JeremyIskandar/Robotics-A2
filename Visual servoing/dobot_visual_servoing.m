@@ -1,28 +1,19 @@
 %% Robotics visual servoing
-function [  ] = dobot_visual_servoing( )
-
-close all
-clf
-
-%% 1.1 Definitions
-
-
+function [  ] = dobot_visual_servoing(dobot)
 % Create image target (points in the image plane) 
-pStar = [662 362 362 662; 362 362 662 662];
-
+pStar = [800 300 300 800; 300 300 800 800]; %STARTS AT TOP RIGHT ANTICLOCKWISE UNTIL LAST POINT BOTTOM RIGHT
+dobot = myDobotRail();
 %Create 3D points
 % P=[1.8,1.8,1.8,1.8;
 % -0.25,0.25,0.25,-0.25;
 %  1.25,1.25,0.75,0.75];
-P=[-0.05,0.05,-0.05,0.05;
--0.35,-0.35,-0.35,-0.35;
- 0.2,0.2,0.1,0.1];
-
-dobot = myDobotRail();             
+P=[0.15,0.15,0.25,0.25;
+-0.28,-0.18,-0.18,-0.28;
+ 0.45, 0.45,0.45,0.45];             %STARTS AT TOP RIGHT ANTICLOCKWISE UNTIL LAST POINT BOTTOM RIGHT        
 
 %Initial pose
 %q0 = [0;-0.8011;0.8072;1.5062;-0.7226;0];
-q0 = deg2rad([0; 0; 70; 30; 80; 0]);
+q0 = deg2rad([rad2deg(0.2); 0; 70; 30; 80; 0]);
 
 % Add the camera
 cam = CentralCamera('focal', 0.08, 'pixel', 10e-5, ...
@@ -33,14 +24,13 @@ fps = 25;
 
 %Define values
 %gain of the controler
-lambda = 0.6;
+lambda = 30;
 %depth of the IBVS
-depth = mean (P(1,:));
-
-%% 1.2 Initialise Simulation (Display in 3D)
+depth = mean(P(1,:));
+epsilon = 0.02;
 
 %Display DoBot
-Tc0= dobot.model.fkine(q0) * troty(90, 'deg');
+Tc0= dobot.model.fkine(q0);
 dobot.model.animate(q0');
 drawnow
 
@@ -52,13 +42,12 @@ plot_sphere(P, 0.01, 'g')
 lighting gouraud
 light
 
-%% 1.3 Initialise Simulation (Display in Image view)
-
 %Project points to the image
 p = cam.plot(P, 'Tcam', Tc0);
 
 %camera view and plotting
-cam.clf()
+cam.clf();      % plot figure of desired pose camera model
+
 cam.plot(pStar, '*'); % create the camera view
 cam.hold(true);
 cam.plot(P, 'Tcam', Tc0, 'o'); % create the camera view
@@ -72,7 +61,6 @@ vel_p = [];
 uv_p = [];
 history = [];
 
-%% 1.4 Loop
 % loop of the visual servoing
 ksteps = 0;
  while true
@@ -86,7 +74,7 @@ ksteps = 0;
         e = e(:);
         Zest = [];
         
-        % compute the Jacobian
+        %compute the Jacobian
         if isempty(depth)
             % exact depth from simulation (not possible in practice)
             pt = homtrans(inv(Tcam), P);
@@ -95,21 +83,43 @@ ksteps = 0;
             J = cam.visjac_p(uv, Zest);
         else
             J = cam.visjac_p(uv, depth );
-        end
+%         end
 
         % compute the velocity of camera in camera frame
         try
             v = lambda * pinv(J) * e;
         catch
             status = -1;
-            return
+        return
         end
         fprintf('v: %.3f %.3f %.3f %.3f %.3f %.3f\n', v);
 
+%         %compute robot's Jacobian and inverse
+%         J2 = dobot.model.jacobn(q0);
+%         Jinv = pinv(J2);
+%         % get joint velocities
+%         qp = Jinv*v;
+         % compute the Jacobian
+        J = cam.visjac_p(uv, depth );
+ 
+        % compute the velocity of camera in camera frame
+        try
+            v = lambda * pinv(J) * e;
+        catch
+            status = -1;
+        return
+        end
+         
         %compute robot's Jacobian and inverse
-        J2 = dobot.model.jacobn(q0);
-        Jinv = pinv(J2);
-        % get joint velocities
+        J2 = dobot.model.jacobn(q0); % Get Jacobian at current joint state (jacobn = local ee frame, jacob0 = world frame)
+        m(ksteps) = sqrt(det(J2*J2')); %computing measure of manipulability
+         
+        if m(ksteps) < epsilon % If manipulability is less than given threshold
+            damping = (1 - m(ksteps)/epsilon)*5E-1; %damped least square
+        else
+            damping = 0;
+        end
+        Jinv = inv(J2'*J2 + damping*eye(6))*J2';
         qp = Jinv*v;
 
          

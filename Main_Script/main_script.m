@@ -22,6 +22,10 @@ end
 % https://lastminuteengineers.com/soil-moisture-sensor-arduino-tutorial/
 % < 500 too wet     500 - 700 target range      >750 dry
 water_plant_moisture(dobot);
+
+%% Visual servoing
+dobot_visual_servoing(dobot);
+
 %% Light Curtain Testing
 
 %lightCurtain;
