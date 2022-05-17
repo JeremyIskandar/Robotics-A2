@@ -27,9 +27,9 @@ end
 % auto_mode(dobot, timer, auto);
 
 %% Visual servoing
-myVisualServoing(dobot);        % Calls myVisualServoing function
-myEnv;                          % Calls myEnv function which plots all objects in environment
-dobot = myDobotRail();
+% myVisualServoing(dobot);        % Calls myVisualServoing function
+% myEnv;                          % Calls myEnv function which plots all objects in environment
+% dobot = myDobotRail();
 %% Light Curtain
 %-->Person model has over 17k vertices so takes long time to process!
 %person = PlaceObject('person.ply',[0,-1.5,-0.7]);
