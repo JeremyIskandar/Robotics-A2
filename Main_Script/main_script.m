@@ -35,6 +35,6 @@ end
 %person = PlaceObject('person.ply',[0,-1.5,-0.7]);
 %person_vertices = get(person,'Vertices');
 
-sphere_points = mySphere(0,-1.7,0.55);      % Creates a sphere at the user input [x,y,z] location in environment
-
-collision_point = LightCurtainCollision(light_curtain_points,sphere_points);    % You can substitute "sphere_points" with "person_vertices"
+% sphere_points = mySphere(0,-1.7,0.55);      % Creates a sphere at the user input [x,y,z] location in environment
+% 
+% collision_point = LightCurtainCollision(light_curtain_points,sphere_points);    % You can substitute "sphere_points" with "person_vertices"
