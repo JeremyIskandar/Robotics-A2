@@ -27,7 +27,8 @@ end
 % auto_mode(dobot, timer, auto);
 
 %% Visual servoing
-% myVisualServoing(dobot);        % Calls myVisualServoing function
+dobot = myDobotRail();
+myVisualServoing(dobot);        % Calls myVisualServoing function
 % myEnv;                          % Calls myEnv function which plots all objects in environment
 % dobot = myDobotRail();
 %% Light Curtain
