@@ -3,7 +3,7 @@ function [  ] = myVisualServoing(dobot)
     % This function initialises visual servoing feature for the dobot
 
     % Create image target (points in the image plane) 
-    pStar = [800 300 300+100 800-100 550; 300 300 800-200 800-200 50];             % STARTS AT TOP RIGHT ANTICLOCKWISE UNTIL LAST POINT BOTTOM RIGHT
+    pStar = [800 300 300+0 800-0 550; 300 300 800-200 800-200 50];             % STARTS AT TOP RIGHT ANTICLOCKWISE UNTIL LAST POINT BOTTOM RIGHT
     dobot = myDobotRail();
 
     % Create 3D points:
