@@ -5,7 +5,7 @@ clc
 
 myEnv;                          % Calls myEnv function which plots all objects in environment
 dobot = myDobotRail();          % Calls myDobot class which initialises and plots dobot model 
-myLightCurtain;                 % Calls myLightCurtain script which plots light curtain between fence opening in environment
+% myLightCurtain;                 % Calls myLightCurtain script which plots light curtain between fence opening in environment
 
 % q = dobot.model.getpos();     % Get the joint angles at the current position        
 % J = dobot.model.jacob0(q);    % Get Jacobian at current position
