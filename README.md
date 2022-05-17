@@ -20,4 +20,4 @@ Our group members are:
 * Safety functionality, including:
 	- reacting to e-stop (and resuming once hazard is cleared)
 	- preventing collisions with a simulated object is placed in system path (and resuming once hazard is cleared)
-	- retreating from simulated safety symbol using visual servoing and RMRC
+	- retreating from simulated safety symbol using visual servoing and RMRC 
