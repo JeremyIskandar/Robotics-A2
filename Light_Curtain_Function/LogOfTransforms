@@ -345,3 +345,1068 @@ collision_point = LightCurtainCollision(light_curtain_points,sphere_points);
 --> Flag tripped - collision detected at:
    -0.0700   -1.5000    0.3200
 
+Undefined function 'LightCurtainCollision' for input arguments of type 'double'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 42)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',42,0)">line 42</a>)
+collision_point = LightCurtainCollision(light_curtain_points,baby_vertices);    % You can substitute "sphere_points" with "person_vertices"
+
+collision_point = LightCurtainCollision(light_curtain_points,baby_vertices);
+{Unrecognized function or variable 'LightCurtainCollision'.
+} 
+clear
+clc
+--> Flag tripped - collision detected at:
+   -0.1400   -1.5000   -0.6000
+
+person = PlaceObject('person.ply',[0,-1.5,-0.7]);
+
+person = PlaceObject('person.ply',[0,-1.5,-0.7]);
+person_vertices = get(person,'Vertices');
+clear
+clc
+myLightCurtain;
+baby = PlaceObject('baby.ply',[0,-2,-0.7]);
+baby_vertices = get(baby,'Vertices');
+collision_point = myLightCurtainCollision(light_curtain_points,baby_vertices);
+--> Flag not tripped - no collision
+delete(baby)
+collision_point = myLightCurtainCollision(light_curtain_points,baby_vertices);
+--> Flag not tripped - no collision
+baby = PlaceObject('baby.ply',[0,-1.75,-0.7]);
+baby_vertices = get(baby,'Vertices');
+collision_point = myLightCurtainCollision(light_curtain_points,baby_vertices);
+--> Flag tripped - collision detected at:
+   -0.2500   -1.5000   -0.6000
+
+--> Flag tripped - collision detected at:
+   -0.1400   -1.5000   -0.6000
+
+delete(baby)
+delete(collision_point)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+} 
+baby = PlaceObject('baby.ply',[0,-1.2,-0.7]);
+baby_vertices = get(baby,'Vertices');
+collision_point = myLightCurtainCollision(light_curtain_points,baby_vertices);
+--> Flag tripped - collision detected at:
+   -0.0700   -1.5000   -0.6000
+
+delete(baby)
+baby = PlaceObject('baby.ply',[0,-2,-0.7]);
+baby_vertices = get(baby,'Vertices');
+collision_point = myLightCurtainCollision(light_curtain_points,baby_vertices);
+--> Flag not tripped - no collision
+delete(collision_point)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Cannot access method 'delete' in class 'matlab.ui.Root'.
+} 
+clear
+clc
+appnumber2.mlapp
+{The class appnumber2 has no Constant property or Static method named 'mlapp'.
+} 
+appnumber2
+{Unrecognized function or variable 'h'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/animate', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\animate.m', 155)" style="font-weight:bold">SerialLink/animate</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\animate.m',155,0)">line 155</a>)
+        if ~h.robot.loop
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_1', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_1.m', 27)" style="font-weight:bold">dobot_move_1</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_1.m',27,0)">line 27</a>)
+        dobot.model.animate(qMatrix_1(i,:));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_2', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_2.m', 45)" style="font-weight:bold">water_plant_2</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_2.m',45,0)">line 45</a>)
+            dobot_move_1(x2,y2,0.25, dobot, 1);     % 0,-0.2,0.25      0,-0.165,0.25       r = 0.015
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('appnumber2/waterplant1ButtonPushed', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp', 51)" style="font-weight:bold">appnumber2/waterplant1ButtonPushed</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp',51,0)">line 51</a>)
+            water_plant_2(app.dobot, 1);
+} 
+Error while evaluating Button PrivateButtonPushedFcn.
+
+clear
+clc
+Plant 1 has been watered!
+Plant 2 has been watered!
+Plant 3 has been watered!
+Plant 4 has been watered!
+Plant 5 has been watered!
+clear
+clc
+Unrecognized function or variable 'baby_starting_pos'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 41)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,0)">line 41</a>)
+        baby = PlaceObject('baby.ply',[0,baby_starting_pos+0.01,-0.7]);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 14)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',14,0)">line 14</a>)
+            dobot_move_lc(0,-0.11,0.160, dobot);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 41)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch);
+
+Unrecognized function or variable 'light_curtain_points'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 43)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,0)">line 43</a>)
+        collision_point = myLightCurtainCollision(light_curtain_points,baby_vertices);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 14)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',14,0)">line 14</a>)
+            dobot_move_lc(0,-0.11,0.160, dobot, baby_starting_pos);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 41)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch, baby_starting_pos);
+
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myLightCurtainCollision', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainCollision.m', 15)" style="font-weight:bold">myLightCurtainCollision</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainCollision.m',15,0)">line 15</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 43)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,0)">line 43</a>)
+        collision_point = myLightCurtainCollision(light_curtain_points,baby_vertices);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 14)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',14,0)">line 14</a>)
+            dobot_move_lc(0,-0.11,0.160, dobot, baby_starting_pos, light_curtain_points);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperE814013294', 'C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m', 41)" style="font-weight:bold">LiveEditorEvaluationHelperE814013294</a> (<a href="matlab: opentoline('C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch, baby_starting_pos, light_curtain_points);
+} 
+if usejava('jvm'), com.mathworks.mde.profiler.ProfilerRunner.initInstance(); end
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myLightCurtainCollision', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainCollision.m', 15)" style="font-weight:bold">myLightCurtainCollision</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainCollision.m',15,0)">line 15</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 43)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,0)">line 43</a>)
+        collision_point = myLightCurtainCollision(light_curtain_points,baby_vertices);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 14)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',14,0)">line 14</a>)
+            dobot_move_lc(0,-0.11,0.160, dobot, baby_starting_pos, light_curtain_points);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperE814013294', 'C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m', 41)" style="font-weight:bold">LiveEditorEvaluationHelperE814013294</a> (<a href="matlab: opentoline('C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch, baby_starting_pos, light_curtain_points);
+} 
+clear
+clc
+if usejava('jvm'), com.mathworks.mde.profiler.ProfilerRunner.initInstance(); end
+Plant 1 has been watered!
+Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 29)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',29,0)">line 29</a>)
+        box = PlaceObject('box.ply',[0,box_starting_pos+0.05,-0.7]);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 51)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',51,0)">line 51</a>)
+    dobot_move_lc(0,0.11,0.165, dobot);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 41)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch, box_starting_pos, light_curtain_points);
+
+box_starting_pos = -2.5;
+box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+box_vertices = get(box,'Vertices');
+delete(box)
+close
+clear
+clc
+   -0.4500   -1.5000   -0.1900
+
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace
+please enter password to continue operation  0
+please try again
+pw:  41013
+please press enter
+exiting
+   -0.4500   -1.5000   -0.1900
+
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace
+please enter password to continue operation  
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 51)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',51,0)">line 51</a>)
+        delete(box)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 14)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',14,0)">line 14</a>)
+            dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 41)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch, box_starting_pos, light_curtain_points);
+
+{Operation terminated by user during matlab.graphics.internal.configureAxes
+
+
+In matlab.graphics.internal.configureAxes
+
+In matlab.graphics.internal.configureAxes
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('surf', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\graph3d\surf.m', 126)" style="font-weight:bold">surf</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\graph3d\surf.m',126,0)">line 126</a>)
+        matlab.graphics.internal.configureAxes(cax,x,y,z);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/plot>cyl', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot.m', 546)" style="font-weight:bold">SerialLink/plot>cyl</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot.m',546,0)">line 546</a>)
+    surf(x,y,z, 'FaceColor', color, 'EdgeColor', 'none', varargin{:})
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/plot>create_robot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot.m', 405)" style="font-weight:bold">SerialLink/plot>create_robot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot.m',405,0)">line 405</a>)
+                    cyl('x', s, [0 t(1)], opt.linkcolor, [], 'Parent', h.link(L));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/plot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot.m', 249)" style="font-weight:bold">SerialLink/plot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\plot.m',249,0)">line 249</a>)
+        handle = create_robot(robot, opt);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail/PlotDobot', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Dobot_with_Rail_Class\myDobotRail.m', 45)" style="font-weight:bold">myDobotRail/PlotDobot</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Dobot_with_Rail_Class\myDobotRail.m',45,0)">line 45</a>)
+            self.model.plot(q,'noarrow','workspace',self.workspace,'scale',scale)   % Plot the robot in environment
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myDobotRail', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Dobot_with_Rail_Class\myDobotRail.m', 12)" style="font-weight:bold">myDobotRail</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Dobot_with_Rail_Class\myDobotRail.m',12,0)">line 12</a>)
+            self.PlotDobot();                               % Calls PlotDobot function
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperE814013294', 'C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m', 7)" style="font-weight:bold">LiveEditorEvaluationHelperE814013294</a> (<a href="matlab: opentoline('C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m',7,0)">line 7</a>)
+dobot = myDobotRail();          % Calls myDobot class which initialises and plots dobot model
+} 
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 304)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',304,0)">line 304</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PlaceObject', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m', 4)" style="font-weight:bold">PlaceObject</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m',4,0)">line 4</a>)
+    [f,v,data] = plyread(name,'tri');
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myEnv', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Environment_Script\myEnv.m', 29)" style="font-weight:bold">myEnv</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Environment_Script\myEnv.m',29,0)">line 29</a>)
+pump = PlaceObject('pump.ply',[0,0.3,0]);                                       % Plot water pump on table
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperE814013294', 'C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m', 6)" style="font-weight:bold">LiveEditorEvaluationHelperE814013294</a> (<a href="matlab: opentoline('C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m',6,0)">line 6</a>)
+myEnv;                          % Calls myEnv function which plots all objects in environment
+} 
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 304)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',304,0)">line 304</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PlaceObject', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m', 4)" style="font-weight:bold">PlaceObject</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m',4,0)">line 4</a>)
+    [f,v,data] = plyread(name,'tri');
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myEnv', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Environment_Script\myEnv.m', 25)" style="font-weight:bold">myEnv</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Environment_Script\myEnv.m',25,0)">line 25</a>)
+FE_mesh_h_1 = PlaceObject('FE_mod_1.ply',[-1.6,1.4,-0.7]);                      % Plot fire extinguisher in corner of room
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperE814013294', 'C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m', 6)" style="font-weight:bold">LiveEditorEvaluationHelperE814013294</a> (<a href="matlab: opentoline('C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m',6,0)">line 6</a>)
+myEnv;                          % Calls myEnv function which plots all objects in environment
+} 
+
+
+
+clc
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Enter password to continue:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Enter password to continue:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Enter password to continue:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Enter password to continue:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Enter password to continue:4
+Please try again
+pw:  41013
+Please press enter
+Exiting
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:41013
+Enter password to continue:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Enter password to continue:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Enter password to continue:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Enter password to continue:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Enter password to continue:
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 26)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,0)">line 26</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 43)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',43,0)">line 43</a>)
+            dobot_move_lc(x2,y2,0.25, dobot, box_starting_pos, light_curtain_points);        % If first iteration, want animation slow
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperE814013294', 'C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m', 41)" style="font-weight:bold">LiveEditorEvaluationHelperE814013294</a> (<a href="matlab: opentoline('C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch, box_starting_pos, light_curtain_points);
+} 
+clear
+clc
+Unrecognized function or variable 'lc_flag'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 28)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',28,0)">line 28</a>)
+        if lc_flag == 0
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 14)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',14,0)">line 14</a>)
+            dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 41)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch, box_starting_pos, light_curtain_points);
+
+clc
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 42)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,0)">line 42</a>)
+        delete(box)                                     % Delete box so it can be moved on next iteration
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 14)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',14,0)">line 14</a>)
+            dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 41)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch, box_starting_pos, light_curtain_points);
+
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 41)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,0)">line 41</a>)
+            delete(box)                                     % Delete box so it can be moved on next iteration
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 14)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',14,0)">line 14</a>)
+            dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 41)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',41,0)">line 41</a>)
+    water_plant_lc(dobot, plant_switch, box_starting_pos, light_curtain_points);
+
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 38)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',38,0)">line 38</a>)
+                delete(box)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 13)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',13,0)">line 13</a>)
+dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 38)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',38,0)">line 38</a>)
+water_plant_lc;
+
+
+
+clear
+clc
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 38)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',38,0)">line 38</a>)
+                delete(box)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 13)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',13,0)">line 13</a>)
+dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 38)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',38,0)">line 38</a>)
+water_plant_lc;
+
+water_plant_lc;
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',23,1)">23  </a>    lc_flag = 0;                        % Set flag to 0 because no objects have been detected by light curtain
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',25,1)">25  </a>    for i = 1:steps
+dbstep in;
+dbstep in;
+dbstep out;
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+dbstep in;
+dbstep out;
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+dbstep
+dbstep
+dbstep
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,1)">42  </a>            box_starting_pos = box_starting_pos + 0.05;     % Update for next iteration
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',43,1)">43  </a>        end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',45,1)">45  </a>        drawnow();
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',46,1)">46  </a>    end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',26,1)">26  </a>        dobot.model.animate(qMatrix_1(i,:));
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',27,1)">27  </a>        dobot.model.fkine(qMatrix_1(i,:));
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',30,1)">30  </a>        if lc_flag == 0
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,1)">31  </a>            box = PlaceObject('box.ply',[0,(box_starting_pos+0.05),-0.7]);
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,1)">32  </a>            box_vertices = get(box,'Vertices');   % Get the [x,y,z] points of the object
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',33,1)">33  </a>            collision_point = myLightCurtainCollision(light_curtain_points,box_vertices);
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',35,1)">35  </a>            if collision_point ~= 0
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',36,1)">36  </a>                disp('--> WARNING: light curtain has detected a collision!');
+--> WARNING: light curtain has detected a collision!
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',37,1)">37  </a>                input('--> Please attend to the obstacle in the workspace by pressing enter:');
+--> Please attend to the obstacle in the workspace by pressing enter:
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',38,1)">38  </a>                delete(box)
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',39,1)">39  </a>                lc_flag = 1;
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',40,1)">40  </a>            end
+<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,1)">41  </a>            delete(box)                                     % Delete box so it can be moved on next iteration
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 41)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',41,0)">line 41</a>)
+            delete(box)                                     % Delete box so it can be moved on next iteration
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 13)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',13,0)">line 13</a>)
+dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+} 
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 42)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,0)">line 42</a>)
+            delete(box)                                     % Delete box so it can be moved on next iteration
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 13)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',13,0)">line 13</a>)
+dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 38)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',38,0)">line 38</a>)
+water_plant_lc;
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 42)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',42,0)">line 42</a>)
+            delete(box)                                     % Delete box so it can be moved on next iteration
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 13)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',13,0)">line 13</a>)
+dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 38)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',38,0)">line 38</a>)
+water_plant_lc;
+
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 39)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',39,0)">line 39</a>)
+                delete(box)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 16)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',16,0)">line 16</a>)
+dobot_move_lc(x_offset,y_offset,0.25, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 38)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',38,0)">line 38</a>)
+water_plant_lc;
+
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 417)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',417,0)">line 417</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PlaceObject', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m', 4)" style="font-weight:bold">PlaceObject</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m',4,0)">line 4</a>)
+    [f,v,data] = plyread(name,'tri');
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 31)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',31,0)">line 31</a>)
+            box = PlaceObject('box.ply',[0,(box_starting_pos+0.01),-0.7]);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 25)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',25,0)">line 25</a>)
+        dobot_move_lc(x2,y2,0.25, dobot, box_starting_pos, light_curtain_points);        % If first iteration, want animation slow
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperE814013294', 'C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m', 38)" style="font-weight:bold">LiveEditorEvaluationHelperE814013294</a> (<a href="matlab: opentoline('C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m',38,0)">line 38</a>)
+water_plant_lc;
+} 
+clear
+clc
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.hgdelete')" style="font-weight:bold">matlab.graphics.internal.hgdelete</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 39)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',39,0)">line 39</a>)
+                delete(box)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 13)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',13,0)">line 13</a>)
+dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 38)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',38,0)">line 38</a>)
+water_plant_lc;
+
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 32)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',32,0)">line 32</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 27)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',27,0)">line 27</a>)
+        dobot_move_lc(x2,y2,0.25, dobot, box_starting_pos, light_curtain_points, 1);     % 0,-0.2,0.25      0,-0.165,0.25       r = 0.015
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperE814013294', 'C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m', 38)" style="font-weight:bold">LiveEditorEvaluationHelperE814013294</a> (<a href="matlab: opentoline('C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m',38,0)">line 38</a>)
+water_plant_lc;
+} 
+clear
+clc
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m', 49)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\dobot_move_lc.m',49,0)">line 49</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 26)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',26,0)">line 26</a>)
+        dobot_move_lc(x2,y2,0.25, dobot, box_starting_pos, light_curtain_points, lc_flag);        % If first iteration, want animation slow
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperE814013294', 'C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m', 38)" style="font-weight:bold">LiveEditorEvaluationHelperE814013294</a> (<a href="matlab: opentoline('C:\Users\reesn\AppData\Local\Temp\Editor_ytqgm\LiveEditorEvaluationHelperE814013294.m',38,0)">line 38</a>)
+water_plant_lc;
+} 
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Unrecognized function or variable 'plant_switch'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('water_plant_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m', 32)" style="font-weight:bold">water_plant_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Robot_Movement_Function\water_plant_lc.m',32,0)">line 32</a>)
+alert = ['Plant ', num2str(plant_switch), ' has been watered!'];
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 38)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',38,0)">line 38</a>)
+water_plant_lc;
+
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Plant 1 has been watered!
+Plant 2 has been watered!
+Plant 3 has been watered!
+Plant 4 has been watered!
+Plant 5 has been watered!
+--> Starting Demo of Light Curtain
+{Unrecognized function or variable 'dobot'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myLightCurtainDemo', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainDemo.m', 14)" style="font-weight:bold">myLightCurtainDemo</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainDemo.m',14,0)">line 14</a>)
+lc_flag = dobot_move_lc(0,-0.11,0.160, dobot, box_starting_pos, light_curtain_points, lc_flag);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('appnumber2/LightCurtainDemoButtonPushed', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp', 191)" style="font-weight:bold">appnumber2/LightCurtainDemoButtonPushed</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp',191,0)">line 191</a>)
+            myLightCurtainDemo;
+} 
+Error while evaluating Button PrivateButtonPushedFcn.
+
+Enter 1 for Collision Objects & 0 for no objects  
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/getpos', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\SerialLink.m', 520)" style="font-weight:bold">SerialLink/getpos</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\SerialLink.m',520,0)">line 520</a>)
+No graphical robot of this name found
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testCollision', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\testCollision.m', 27)" style="font-weight:bold">testCollision</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\testCollision.m',27,0)">line 27</a>)
+dobotCurrentEndEfPose = dobot.model.fkine(dobot.model.getpos()); % stores the new End Effector pose after picking up the brick
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('appnumber2/CollisionAvoidanceButtonPushed', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp', 168)" style="font-weight:bold">appnumber2/CollisionAvoidanceButtonPushed</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp',168,0)">line 168</a>)
+            testCollision;
+} 
+Error while evaluating Button PrivateButtonPushedFcn.
+
+clear
+clc
+--> Starting Demo of Light Curtain
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+{Unrecognized function or variable 'h'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/animate', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\animate.m', 155)" style="font-weight:bold">SerialLink/animate</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\animate.m',155,0)">line 155</a>)
+        if ~h.robot.loop
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\dobot_move_lc.m', 24)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\dobot_move_lc.m',24,0)">line 24</a>)
+        dobot.model.animate(qMatrix_1(i,:));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myLightCurtainDemo', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainDemo.m', 29)" style="font-weight:bold">myLightCurtainDemo</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainDemo.m',29,0)">line 29</a>)
+        lc_flag = dobot_move_lc(x2,y2,0.25, dobot, box_starting_pos, light_curtain_points, lc_flag);        % If first iteration, want animation slow
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('appnumber2/LightCurtainDemoButtonPushed', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp', 191)" style="font-weight:bold">appnumber2/LightCurtainDemoButtonPushed</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp',191,0)">line 191</a>)
+            myLightCurtainDemo;
+} 
+Error while evaluating Button PrivateButtonPushedFcn.
+
+--> Starting Demo of Light Curtain
+--> Please press enter to continue with demo
+{Undefined function 'delay' for input arguments of type 'double'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myLightCurtainDemo', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainDemo.m', 7)" style="font-weight:bold">myLightCurtainDemo</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainDemo.m',7,0)">line 7</a>)
+delay(2)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('appnumber2/LightCurtainDemoButtonPushed', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp', 191)" style="font-weight:bold">appnumber2/LightCurtainDemoButtonPushed</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp',191,0)">line 191</a>)
+            myLightCurtainDemo;
+} 
+Error while evaluating Button PrivateButtonPushedFcn.
+
+--> Starting Demo of Light Curtain
+--> Please press enter to continue with demo
+--> WARNING: light curtain has detected a collision!
+--> Please attend to the obstacle in the workspace by pressing enter:
+Plant 1 has been watered!
+{Unrecognized function or variable 'h'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/animate', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\animate.m', 155)" style="font-weight:bold">SerialLink/animate</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\animate.m',155,0)">line 155</a>)
+        if ~h.robot.loop
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dobot_move_lc', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\dobot_move_lc.m', 24)" style="font-weight:bold">dobot_move_lc</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\dobot_move_lc.m',24,0)">line 24</a>)
+        dobot.model.animate(qMatrix_1(i,:));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myLightCurtainDemo', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainDemo.m', 40)" style="font-weight:bold">myLightCurtainDemo</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Light_Curtain_Function\myLightCurtainDemo.m',40,0)">line 40</a>)
+lc_flag = dobot_move_lc(0,0.11,0.165, dobot, box_starting_pos, light_curtain_points, lc_flag);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('appnumber2/LightCurtainDemoButtonPushed', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp', 191)" style="font-weight:bold">appnumber2/LightCurtainDemoButtonPushed</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp',191,0)">line 191</a>)
+            myLightCurtainDemo;
+} 
+Error while evaluating Button PrivateButtonPushedFcn.
+
+clear
+clc

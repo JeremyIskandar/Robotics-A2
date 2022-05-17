@@ -1,0 +1,45 @@
+appnumber2
+Plant 1 has been watered!
+please RESUME to continue operation
+pwStatus =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+please enter password to continue operation  4
+please try again
+pw:  1
+please try again
+pw:  41013
+please press enter
+exiting
+
+pwStatus =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+
+Plant 2 has been watered!
+
+Plant 3 has been watered!
+Enter 1 for Collision Objects & 0 for no objects  close
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SerialLink/getpos', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\SerialLink.m', 520)" style="font-weight:bold">SerialLink/getpos</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\@SerialLink\SerialLink.m',520,0)">line 520</a>)
+No graphical robot of this name found
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('testCollision', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\testCollision.m', 27)" style="font-weight:bold">testCollision</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\testCollision.m',27,0)">line 27</a>)
+dobotCurrentEndEfPose = dobot.model.fkine(dobot.model.getpos()); % stores the new End Effector pose after picking up the brick
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('appnumber2/CollisionAvoidanceButtonPushed', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp', 167)" style="font-weight:bold">appnumber2/CollisionAvoidanceButtonPushed</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Stop_Button_GUI\appnumber2.mlapp',167,0)">line 167</a>)
+            testCollision;
+} 
+Error while evaluating DestroyedObject PrivateButtonPushedFcn.
+
+clear
+Plant 1 has been watered!
+Plant 2 has been watered!
+Plant 3 has been watered!
+Plant 4 has been watered!
+Plant 5 has been watered!

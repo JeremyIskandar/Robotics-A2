@@ -9,3 +9,20 @@ dobot_move_more();      % make robot move to test DOF's extension in -0.5m linea
 clear all
 clc
 myEnv;
+Index in position 1 exceeds array bounds.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plyread', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m', 334)" style="font-weight:bold">plyread</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT2 - Lab Assignment 1 (20%)\plyread.m',334,0)">line 334</a>)
+                     ListData{1}{j+k} = Buf(k,:);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PlaceObject', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m', 4)" style="font-weight:bold">PlaceObject</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\robot-9.10Small_Modified_20220202_WithVisionTB\robot-9.10Small_Modified\rvctools\robot\PlaceObject.m',4,0)">line 4</a>)
+    [f,v,data] = plyread(name,'tri');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myEnv', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Environment_Script\myEnv.m', 29)" style="font-weight:bold">myEnv</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Environment_Script\myEnv.m',29,0)">line 29</a>)
+pump = PlaceObject('pump.ply',[0,0.3,0]);                                       % Plot water pump on table
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', 'C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m', 6)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('C:\Users\reesn\OneDrive - University of Technology Sydney\University of Technology Sydney\2022\Autumn 2022\Industrial Robotics\AT3 - Lab Assignment 2 (35%)\Robotics-A2-main (17.5.22-1600)\Main_Script\main_script.m',6,0)">line 6</a>)
+myEnv;                          % Calls myEnv function which plots all objects in environment
+
+clear
+clc
+myEnv;
