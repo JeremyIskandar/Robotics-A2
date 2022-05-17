@@ -5,7 +5,7 @@ function [  ] = myVisualServoing(dobot)
     % Create image target (points in the image plane) 
 %     pStar = [800 300 300+100 800-100 550; 300 300 800-200 800-200 50];             % STARTS AT TOP RIGHT ANTICLOCKWISE UNTIL LAST POINT BOTTOM RIGHT
     pStar = [600 400 440 560 500; 500 500 620 620 400]; 
-      dobot = myDobotRail();
+%       dobot = myDobotRail();
 
     % Create 3D points:
     % P=[1.8,1.8,1.8,1.8;
@@ -40,10 +40,10 @@ function [  ] = myVisualServoing(dobot)
 
     % Display points in 3D and the camera:
     cam.plot_camera('Tcam',Tc0, 'label','scale',0.05);
-    plot_sphere(P, 0.01, 'g')
+    plot_sphere(P, 0.005, 'g')
     hold on
     
-    pentagon_safety = PlaceObject('PentagonExtruded_2.ply',[0.16,0.23-0.45,0.45]);
+    pentagon_safety = PlaceObject('PentagonExtruded_3.ply',[0.16,0.23-0.46,0.45]);
     
     lighting gouraud
     light
