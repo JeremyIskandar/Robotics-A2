@@ -21,7 +21,3 @@ Our group members are:
 	- reacting to e-stop (and resuming once hazard is cleared)
 	- preventing collisions with a simulated object is placed in system path (and resuming once hazard is cleared)
 	- retreating from simulated safety symbol using visual servoing and RMRC
-
-## Instructions
-* All functions and classes should be executed in `main_script`
-* Comments should be written throughout to explain code

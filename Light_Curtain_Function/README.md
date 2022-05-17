@@ -1,4 +1,5 @@
-# Example of how to implement light curtain from main (when envinronment and robot has been initalised already):
+# Light_Curtain_Function
+An example of how to implement light curtain from main (when envinronment and robot has been initalised already):
 
 ```
 %% Light Curtain
@@ -15,7 +16,7 @@ collision_point = LightCurtainCollision(light_curtain_points,sphere_points);    
 
 ```
 
-## Returns:
+Returns:
 * "--> Flag not tripped - no collision"
 
 or
