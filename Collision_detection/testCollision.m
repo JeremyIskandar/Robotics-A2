@@ -12,7 +12,7 @@ dobot = myDobotRail();
 
 collisionObject = input("Enter 1 for Collision Objects & 0 for no objects  ");
 if collisionObject == 1
-centerpnt = [0.25,0.2,0];
+centerpnt = [0.16,0.2,0.1];
 side = 0.1;
 plotOptions.plotFaces = true;
 [vertex,faces,faceNormals] = RectangularPrism(centerpnt-side/2, centerpnt+side/2,plotOptions);
@@ -49,6 +49,9 @@ dobotJointsFinal = dobotTrajOfJointsFinal(i,:);
                 else
                     display('No collision found');
         end
+
+
+
 end
 else
     display("no objects on the scene");
@@ -79,14 +82,14 @@ end
 
 %%
 
-if collision == true
-    display('collision = to true');
-    pause(5);
-    display('avoiding collision going back to home');
-     avoidCollision( ur3, (ur3TrajOfJoints(end,:)), ur3TrajOfJointsFinal(end,:),faces,vertex,faceNormals);
-else
-    display('no collision detected - completing usual trajectory');
-end
+% if collision == true
+%     display('collision = to true');
+%     pause(5);
+%     display('avoiding collision going back to home');
+%      avoidCollision( ur3, (ur3TrajOfJoints(end,:)), ur3TrajOfJointsFinal(end,:),faces,vertex,faceNormals);
+% else
+%     display('no collision detected - completing usual trajectory');
+% end
 
 %water_plant_2(dobot, 1);
 

@@ -12,6 +12,8 @@ dobot = myDobotRail();          % Calls myDobot class which initialises and plot
 % db_workspace(30,0.25);        % Creates pointcloud of dobots workspace- input step_degs (15-30 degs pref), input step_rail (0.5m 0.33m 0.25m)
 
 %% Initialization (waters all five plants in order 1 -> 5)
+
+input('--> Press ENTER to start watering all five plants.')
 for plant_switch = 1:1:5        % Water plants 1 -> 5 in order
     water_plant_2(dobot, plant_switch);
 end
