@@ -493,3 +493,10 @@ clear
 clc
 figure
 myEnv;
+clear
+clc
+figure
+close
+myDobotRail;
+clear
+clc
