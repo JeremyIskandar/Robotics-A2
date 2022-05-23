@@ -485,3 +485,11 @@ Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback
 Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.ui.control.internal.controller.ComponentController/executeUserCallback', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\uicomponents\uicomponents\+matlab\+ui\+control\+internal\+controller\ComponentController.m', 427)" style="font-weight:bold">matlab.ui.control.internal.controller.ComponentController/executeUserCallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\uicomponents\uicomponents\+matlab\+ui\+control\+internal\+controller\ComponentController.m',427,0)">line 427</a>)
 Error while evaluating Button PrivateButtonPushedFcn.
 
+MATLAB has experienced a low-level graphics error, and may not have drawn correctly.
+Read about what you can do to prevent this issue at <a href="matlab:opengl('problems')">Resolving Low-Level Graphics Issues</a> then restart MATLAB.
+To share details of this issue with MathWorks technical support,
+please include <a href="file:/home/nathan/jogl.ex.53103">this file</a> with your service request.
+clear
+clc
+figure
+myEnv;
