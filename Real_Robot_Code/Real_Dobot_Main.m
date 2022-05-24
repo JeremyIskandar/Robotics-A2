@@ -58,7 +58,7 @@ railStatusMsg.Data = true;
 send(railStatusPublisher,railStatusMsg);
 
 %% Move rail position
-position = 0.5% Move to the position of 0.5
+position = -0.25  % Move to the position of 0.5
 [railPosPub,railPosMsg] = rospublisher('/dobot_magician/target_rail_position');
 railPosMsg.Data = position;
 send(railPosPub,railPosMsg);
