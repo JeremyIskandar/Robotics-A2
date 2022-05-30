@@ -7,17 +7,24 @@ Lab Assignment 2
 * Final System Demonstration (group): Week 12 Lab Class – 11:00 Wedneday 18 May
 * Final Video (group): Week 12 – 21:00 Friday 20 May
 
-## Project Title: DoBotany
-Our group members are:
+# Project Title: DoBotany
+
+## Group Members
 * Jeremy Iskandar -13226853
 * Joshua Siwan -13199955
 * Nathan Rees -13225180
 
-## Requirements
-* Matlab GUI with advanced "teach" function and displaying individual joint movements and Cartesian [x,y,z] movements
-* Functional e-stop that stops operations and permits resuming once disengaged
-* Simulated environment with safety hardware
-* Safety functionality, including:
-	- reacting to e-stop (and resuming once hazard is cleared)
-	- preventing collisions with a simulated object is placed in system path (and resuming once hazard is cleared)
-	- retreating from simulated safety symbol using visual servoing and RMRC 
+## Application
+* Pupose of robot is to automatically water indoor plants
+* Provides a solution to a tedious and repetitive manual task
+
+## Features
+* Robot can be integrated with soil moisture sensor to further automate the process and water specific plants when they need it
+* User-friendly GUI enables operator to have full control over robot's movements and automated processes
+
+## Safety Considerations
+* E-stop immediately stops robot movement until user resumes operations
+* Collision detection system alerts user via an error message if a foreign object will cause a collision with the robot
+* Light curtain will alert user if a foreign object enters the workspace and immediately stop the robot movement
+* Visual servoing allows the robot to safely retreat from a recognised symbol
+
